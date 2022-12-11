@@ -18,7 +18,7 @@ func main() {
 	logo()
 
 	var api bool
-	flag.BoolVar(&api, "a", false, "Need the google maps api")
+	flag.BoolVar(&api, "a", false, "For the google maps api")
 	flag.Parse()
 
 	if api {
