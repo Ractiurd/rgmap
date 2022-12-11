@@ -7,7 +7,7 @@ All Credit for this Code goes to [ozguralp](https://github.com/ozguralp/gmapsapi
 ## Installation
 To install this Tool please use the following Command:
 ```
-go install github.com/Ractiud/rgmap@latest
+go install github.com/Ractiurd/rgmap@latest
 ```
 
 
