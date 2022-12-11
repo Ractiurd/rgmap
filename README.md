@@ -1,4 +1,5 @@
 # rgmap
+Google Maps Api Scanner 
 
 This a replication of ozguralp/gmapsapiscanner. I transformed this from python to golang with decent output. ;-)
 
