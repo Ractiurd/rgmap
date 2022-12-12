@@ -59,12 +59,12 @@ func main() {
 				}
 				body_string := string(body)
 
-				if strings.Contains(body_string, "errors") {
+				if strings.Contains(body_string, "Custom Search API has not been used in project") {
 					fmt.Printf("%v >> Api key is not vulnerable to Custom Search Api\n\n", api_key)
 				} else {
 					fmt.Printf("%v is %v to Custom Search Api\n", api_key, Red)
 					fmt.Printf("POC :  %v\n\n", url1)
-					A1 := "Custom Search   >>>>>>>>>>   " + api_key + "   >>>>>>>>>>   $5 per 1000 request"
+					A1 := "Custom Search                   >>>>>>>>>>   " + api_key + "   >>>>>>>>>>   $5 per 1000 request"
 					endresult = append(endresult, A1)
 				}
 			}
@@ -628,12 +628,12 @@ func main() {
 				}
 				body_string := string(body)
 
-				if strings.Contains(body_string, "errors") {
+				if strings.Contains(body_string, "Custom Search API has not been used in project") {
 					fmt.Printf("%v >> Api key is not vulnerable to Custom Search Api\n\n", api_key)
 				} else {
 					fmt.Printf("%v is %v to Custom Search Api\n", api_key, Red)
 					fmt.Printf("POC :  %v\n\n", url1)
-					A1 := "Custom Search   >>>>>>>>>>   " + api_key + "   >>>>>>>>>>   $5 per 1000 request"
+					A1 := "Custom Search                   >>>>>>>>>>   " + api_key + "   >>>>>>>>>>   $5 per 1000 request"
 					endresult = append(endresult, A1)
 				}
 			}
