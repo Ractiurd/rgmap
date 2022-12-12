@@ -23,4 +23,4 @@ rgmap
 ```
 
 ## Question
-If you have an question you can create an Issue or ping me on [Ractiud](https://twitter.com/ractiurd)
+If you have an question you can create an Issue or ping me on [Ractiurd](https://twitter.com/ractiurd)
